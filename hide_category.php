@@ -8,7 +8,7 @@ Author: r-a-y & mrjarbenne
 Author URI: http://commons.hwdsb.on.ca
 
 /**
-* Exclude 'nanowrimo category posts from homepage.
+* Exclude 'hide' category posts from homepage.
 */
 function hwdsb_hide_exclude_from_home( $query = false ) {
 // Bail if not home, not a query, or not main query
